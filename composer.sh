@@ -10,6 +10,6 @@ IMAGE="axllent/composer:${PHP}"
 
 docker run --rm -it \
     -v ${CURRENT_DIR}:/app \
-    -v $(HOME)/.cache/composer:/tmp/composer-cache \
+    -v ${HOME}/.cache/composer:/tmp/composer-cache \
     -u ${MYUID}:${MYGID} \
     ${IMAGE} ${*:1}
