@@ -1,9 +1,9 @@
-FROM alpine:3.21
+FROM alpine:3.16
 
 COPY install.sh /install.sh
 
 RUN apk add --no-cache bash && \
-    /install.sh 8.3 && \
+    /install.sh 8.0 && \
     apk del bash && \
     rm -f /install.sh
 
