@@ -27,6 +27,7 @@ apk add --no-cache \
     php${MAJOR}-gmp~=${PHP_VERSION} \
     php${MAJOR}-iconv~=${PHP_VERSION} \
     php${MAJOR}-intl~=${PHP_VERSION} \
+    php${MAJOR}-json~=${PHP_VERSION} \
     php${MAJOR}-mbstring~=${PHP_VERSION} \
     php${MAJOR}-opcache~=${PHP_VERSION} \
     php${MAJOR}-openssl~=${PHP_VERSION} \
