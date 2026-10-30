@@ -28,7 +28,6 @@ apk add --no-cache \
     php${MM}-iconv~=${PHP_VERSION} \
     php${MM}-intl~=${PHP_VERSION} \
     php${MM}-mbstring~=${PHP_VERSION} \
-    php${MM}-opcache~=${PHP_VERSION} \
     php${MM}-openssl~=${PHP_VERSION} \
     php${MM}-pcntl~=${PHP_VERSION} \
     php${MM}-phar~=${PHP_VERSION} \
