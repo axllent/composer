@@ -36,6 +36,7 @@ apk add --no-cache \
     php${MM}-simplexml~=${PHP_VERSION} \
     php${MM}-tokenizer~=${PHP_VERSION} \
     php${MM}-xml~=${PHP_VERSION} \
+    php${MM}-xmlwriter~=${PHP_VERSION} \
     php${MM}-xsl~=${PHP_VERSION} \
     php${MM}-zip~=${PHP_VERSION}
 
